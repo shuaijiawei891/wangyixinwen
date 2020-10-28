@@ -1,0 +1,37 @@
+/* components/news/news.wxss */
+.new_item{
+  padding: 22rpx;
+  border-bottom: 2rpx solid lightgray;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.title_warp .image_warp{
+  float: left;
+}
+.title_warp{
+  width: 472rpx;
+}
+.title{
+   font-size: 34rpx;
+   color: #333333;
+   margin-bottom: 10rpx;
+}
+.info_warp{
+  font-size: 24rpx;
+  color: #B4B4B4;
+}
+.time{
+  margin-right: 20rpx;
+}
+.image_warp{
+  width: 234rpx;
+  
+}
+.image_warp image{
+  width: 100%;
+}
+.soucang{
+  float: right;
+  margin-right: 20rpx;
+}

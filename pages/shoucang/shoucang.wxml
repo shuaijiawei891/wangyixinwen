@@ -1,0 +1,2 @@
+<!--pages/shoucang/shoucang.wxml-->
+<news wx:for="{{shoucangarr}}" wx:key="index" obj="{{item}}"></news> 

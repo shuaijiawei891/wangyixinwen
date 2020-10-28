@@ -1,0 +1,27 @@
+{
+  "pages":[
+    
+    "pages/index/index",
+    "pages/shoucang/shoucang",
+    "pages/xiangqing/xiangqing"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },
+    {
+      "pagePath":  "pages/shoucang/shoucang",
+      "text": "收藏"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

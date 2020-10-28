@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view>
+<news cilckxiangqing="{{cilckxiangqing}}" shoucang="{{shoucang}}" wx:for="{{newsarr}}" wx:key="index" obj="{{item}}"></news>
+<!-- <view class="new_item" wx:for="{{newsarr}}" wx:key="index" bindtap="cilckxiangqing" data-url="{{item.url}}">
+  <view class="title_warp">
+     <view class="title">{{item.title}}</view>
+     <view class="info_warp">
+      <text class="time">{{item.ptime}}</text>
+      <text class="flow">{{item.replyCount}}播放</text>
+      <text class="soucang" bindtap="shoucang" data-obj="{{item}}">收藏</text>
+     </view>
+  </view>
+   <view class="image_warp">
+    <image mode="widthFix" src="{{item.imgsrc}}"></image>
+   </view>
+</view> -->
+</view>
